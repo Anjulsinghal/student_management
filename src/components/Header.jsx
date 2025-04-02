@@ -38,7 +38,7 @@ const Header = ({ onAddClick, onSearch, searchTerm }) => {
             {/* Add Student button */}
             <button
               onClick={onAddClick}
-              className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg flex items-center transition-colors duration-200 font-medium shadow-sm whitespace-nowrap text-white"
+              className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg flex items-center transition-colors duration-200 font-medium shadow-sm whitespace-nowrap text-white !text-white"
             >
               <PlusIcon size={18} className="mr-1" />
               Add Student

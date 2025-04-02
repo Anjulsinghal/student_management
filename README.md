@@ -2,6 +2,11 @@
 
 A React-based student management system with a clean UI, form validation, and persistent storage using Redux and Redux Persist.
 
+## Links
+Live Demo: https://student-management-eight-eta.vercel.app/
+
+GitHub Repository: https://github.com/Anjulsinghal/student_management
+
 ## Features
 
 - Add, edit, and delete student records

@@ -234,11 +234,11 @@ const StudentForm = ({ student, onSubmit, onClose }) => {
                   focus:ring-2 focus:ring-blue-500 focus:border-blue-500 py-2 px-3 text-gray-700`}
               >
                 <option value="">Select Department</option>
-                <option value="Computer Science">Computer Science</option>
-                <option value="Electrical Engineering">Electrical Engineering</option>
-                <option value="Mechanical Engineering">Mechanical Engineering</option>
-                <option value="Civil Engineering">Civil Engineering</option>
-                <option value="Business Administration">Business Administration</option>
+                <option value="React Developer">Computer Science</option>
+                <option value="Backend">Electrical Engineering</option>
+                <option value="QA">Mechanical Engineering</option>
+                <option value="MERN Stack">Civil Engineering</option>
+                <option value="Data Engineer">Business Administration</option>
               </select>
             </div>
             {errors.department && <p className="text-red-500 text-xs mt-1">{errors.department}</p>}

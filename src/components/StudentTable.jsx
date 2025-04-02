@@ -131,7 +131,7 @@ const StudentTable = ({
                     <p className="text-gray-400 mb-6 max-w-sm">Add your first student to start managing your student directory</p>
                     <button
                       onClick={onAddClick}
-                      className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg flex items-center transition-colors duration-200"
+                      className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-lg flex items-center transition-colors duration-200 text-white"
                     >
                       <UserPlus size={18} className="mr-2" />
                       Add Your First Student

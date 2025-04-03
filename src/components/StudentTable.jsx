@@ -79,7 +79,7 @@ const StudentTable = ({
           
           <tbody className="bg-white divide-y divide-gray-200">
             {students.length > 0 ? (
-              students.slice(indexOfFirstStudent, indexOfLastStudent).map((student) => (
+              students.map((student) => (
                 <tr key={student.id} className="hover:bg-blue-50 transition-colors duration-150">
                   <td className="px-6 py-4 whitespace-nowrap">
                     <div className="font-medium text-gray-900">{student.name}</div>
